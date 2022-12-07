@@ -1,0 +1,46 @@
+2022-11-03 22:13:00.106  INFO 22496 --- [main] tn.esprit.kaddemspring.KaddemSpring      : Starting KaddemSpring using Java 11.0.16 on DESKTOP-LNFKQVI with PID 22496 (C:\Users\Ouss\Documents\Kaddem-Spring-oussama\target\classes started by Ouss in C:\Users\Ouss\Documents\Kaddem-Spring-oussama)
+2022-11-03 22:13:00.109  INFO 22496 --- [main] tn.esprit.kaddemspring.KaddemSpring      : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 22:13:00.655  INFO 22496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-03 22:13:00.732  INFO 22496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+2022-11-03 22:13:01.115  INFO 22496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-03 22:13:01.123  INFO 22496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 22:13:01.123  INFO 22496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 22:13:01.226  INFO 22496 --- [main] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring embedded WebApplicationContext
+2022-11-03 22:13:01.226  INFO 22496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2022-11-03 22:13:01.387  INFO 22496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 22:13:01.423  INFO 22496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-03 22:13:01.540  INFO 22496 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 22:13:01.626  INFO 22496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 22:13:01.746  INFO 22496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 22:13:01.755  INFO 22496 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-03 22:13:02.429  INFO 22496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 22:13:02.438  INFO 22496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-03 22:13:02.803  WARN 22496 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-03 22:13:03.065  INFO 22496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '/kaddem'
+2022-11-03 22:13:03.074  INFO 22496 --- [main] tn.esprit.kaddemspring.KaddemSpring      : Started KaddemSpring in 3.356 seconds (JVM running for 4.163)
+2022-11-03 22:13:33.302  INFO 22496 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-03 22:13:33.304  INFO 22496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 22:13:33.313  INFO 22496 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-03 22:13:36.566  INFO 7244 --- [main] tn.esprit.kaddemspring.KaddemSpring      : Starting KaddemSpring using Java 11.0.16 on DESKTOP-LNFKQVI with PID 7244 (C:\Users\Ouss\Documents\Kaddem-Spring-oussama\target\classes started by Ouss in C:\Users\Ouss\Documents\Kaddem-Spring-oussama)
+2022-11-03 22:13:36.569  INFO 7244 --- [main] tn.esprit.kaddemspring.KaddemSpring      : No active profile set, falling back to 1 default profile: "default"
+2022-11-03 22:13:37.138  INFO 7244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-03 22:13:37.210  INFO 7244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2022-11-03 22:13:37.596  INFO 7244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-03 22:13:37.605  INFO 7244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-03 22:13:37.605  INFO 7244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-03 22:13:37.704  INFO 7244 --- [main] o.a.c.c.C.[.[localhost].[/kaddem]        : Initializing Spring embedded WebApplicationContext
+2022-11-03 22:13:37.705  INFO 7244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2022-11-03 22:13:37.863  INFO 7244 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-03 22:13:37.899  INFO 7244 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-11-03 22:13:38.006  INFO 7244 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-03 22:13:38.087  INFO 7244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-03 22:13:38.203  INFO 7244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-03 22:13:38.214  INFO 7244 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-03 22:13:38.883  INFO 7244 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-03 22:13:38.891  INFO 7244 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-03 22:13:39.271  WARN 7244 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-03 22:13:39.525  INFO 7244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path '/kaddem'
+2022-11-03 22:13:39.534  INFO 7244 --- [main] tn.esprit.kaddemspring.KaddemSpring      : Started KaddemSpring in 3.37 seconds (JVM running for 4.277)
+2022-11-03 22:14:02.642  INFO 7244 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-03 22:14:02.644  INFO 7244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-03 22:14:02.652  INFO 7244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
